@@ -1,0 +1,22 @@
+El set de datos SaratogaHouses del paquete mosaicData contiene información sobre la precio de 1728 viviendas situadas en Saratoga County, New York, USA en el año 2006. Además del precio, incluye 15 variables adicionales:
+
+price: precio de la vivienda.
+lotSize: metros cuadrados de la vivienda.
+age: antigüedad de la vivienda.
+landValue: valor del terreno.
+livingArea: metros cuadrados habitables.
+pctCollege: porcentaje del vecindario con título universitario.
+bedrooms: número de dormitorios.
+firplaces: número de chimeneas.
+bathrooms: número de cuartos de baño (el valor 0.5 hace referencia a cuartos de baño sin ducha).
+rooms: número de habitaciones.
+heating: tipo de calefacción.
+fuel: tipo de alimentación de la calefacción (gas, electricidad o diesel).
+sewer: tipo de desagüe.
+waterfront: si la vivienda tiene vistas al lago.
+newConstruction: si la vivienda es de nueva construcción.
+centralAir: si la vivienda tiene aire acondicionado.
+
+
+
+El objetivo es obtener un modelo capaz de predecir el precio del alquiler.
