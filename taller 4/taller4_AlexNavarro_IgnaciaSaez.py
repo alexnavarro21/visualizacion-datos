@@ -7,7 +7,7 @@ from dash import Dash, html, dcc, dash_table
 from jupyter_dash import JupyterDash
 
 # Cargar datos desde CSV
-df = pd.read_csv('happiness.csv')
+df = pd.read_csv('world_happiness_combined.csv')
 list(df.columns)
 
 
@@ -36,6 +36,8 @@ app.layout = html.Div([
     table,
     html.H2('Gráfico Interactivo'),
     dcc.Graph(figure=fig)
-    ])
+    ],
+    style={'font-family': 'Arial' }
+    )
 
 app.run(jupyter_mode='external')
